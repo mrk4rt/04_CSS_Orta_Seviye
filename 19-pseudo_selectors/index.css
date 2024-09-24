@@ -1,0 +1,50 @@
+
+/*Pseudo Element */
+
+p::first-line{ /*ilk satır*/
+    font-weight: bold;
+    color: darkred;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+p::first-letter{ /*ilk harf*/
+    font-size: 50px;
+}
+
+
+/* Pseudo Class */
+
+ul li{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+ul li:first-child{ /*ilk eleman*/
+    background-color: darkgreen;
+}
+
+ul li:last-child{ /*son eleman*/
+    background-color: deepskyblue;
+}
+
+
+a:visited{ /*daha önce tıklandıysa*/
+    color: fuchsia;
+}
+
+a:hover{ /*üzerine gelindiğinde*/
+    color: white;
+    background-color: lightblue;
+}
+
+a{
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+
+
