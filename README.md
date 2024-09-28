@@ -1,2 +1,0 @@
-# 004_CSS_Orta_Seviye
-004_CSS_Orta_Seviye
